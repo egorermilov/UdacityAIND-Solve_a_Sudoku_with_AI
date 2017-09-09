@@ -2,6 +2,8 @@
 # Diagonal Sudoku Solver
 ## by Egor Ermilov
 
+Created an AI to solve Diagonal Sudokus using constraint propagation and search techniques. Additionally, taught the agent to use the Naked Twins advanced Sudoku strategy.
+
 ### Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
 A: We identify all the units containing naked twins (2 boxes with identical sets of 2 candidates). Then we eliminate the twin values from the peers. Eliminating these values makes the Sudoku easier to solve. In other words we reduce the search space by making local constraints. 
